@@ -1,7 +1,8 @@
 import keras.backend as K
 import tensorflow as tf
 from keras.layers import Conv2D, Concatenate, Activation, Lambda, Add, GlobalAveragePooling2D, GlobalMaxPooling2D, Dense, Reshape, multiply, Permute
-from keras.models import Model, Input
+from keras.models import Model
+from tensorflow.keras.layers import Input
 import numpy as np
 
 K.set_image_data_format('channels_first')
